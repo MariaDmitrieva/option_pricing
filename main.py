@@ -21,8 +21,8 @@ def calcs():
 
     strike = float(strike)
     strike_compound = float(strike_compound)
-    maturity = int(maturity)
-    maturity_compound = int(maturity_compound)
+    maturity = int(maturity)/252
+    maturity_compound = int(maturity_compound)/252
     volatility = float(volatility)
     option_type = str(option_type)
     aux = bool(aux)
