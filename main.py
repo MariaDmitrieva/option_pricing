@@ -89,6 +89,5 @@ E12.grid(row=12, column=1)
 E13 = Entry(top, bd=5)
 E13.grid(row=13, column=1)
 
-B = Button(top, text="Submit", command=calcs().grid(row=14, column=1, ))
-
+B = Button(top, text="Submit", command=calcs).grid(row=15, column=1, )
 top.mainloop()
